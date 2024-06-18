@@ -1,0 +1,105 @@
+{
+    "courses": [
+        {
+            "id": 1,
+            "title": "Introduction to Guitar",
+            "slug": "introduction-to-guitar",
+            "description": "Learn the basics of playing guitar, including chords, strumming patterns, and simple songs.",
+            "price": 49.99,
+            "instructor": "John Smith",
+            "isFeatured": true,
+            "image": "https://example.com/images/guitar.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Mastering Piano Techniques",
+            "slug": "mastering-piano-techniques",
+            "description": "Advanced piano techniques for aspiring pianists, including finger exercises and complex compositions.",
+            "price": 79.99,
+            "instructor": "Emily Johnson",
+            "isFeatured": true,
+            "image": "https://example.com/images/piano.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Jazz Drumming Essentials",
+            "slug": "jazz-drumming-essentials",
+            "description": "Explore the fundamentals of jazz drumming, from basic rhythms to improvisation.",
+            "price": 59.99,
+            "instructor": "Mike Brown",
+            "isFeatured": false,
+            "image": "https://example.com/images/drums.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Violin for Beginners",
+            "slug": "violin-for-beginners",
+            "description": "Step-by-step guide to learning violin for beginners, covering posture, bowing, and simple tunes.",
+            "price": 44.99,
+            "instructor": "Sophia Williams",
+            "isFeatured": true,
+            "image": "https://example.com/images/violin.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Electronic Music Production",
+            "slug": "electronic-music-production",
+            "description": "Learn to create electronic music using popular digital audio workstations and plugins.",
+            "price": 89.99,
+            "instructor": "Alex Martinez",
+            "isFeatured": false,
+            "image": "https://example.com/images/electronic.jpg"
+        },
+        {
+            "id": 6,
+            "title": "Classical Guitar Masterclass",
+            "slug": "classical-guitar-masterclass",
+            "description": "Advanced techniques and repertoire for classical guitarists looking to refine their skills.",
+            "price": 69.99,
+            "instructor": "Olivia Davis",
+            "isFeatured": true,
+            "image": "https://example.com/images/classical-guitar.jpg"
+        },
+        {
+            "id": 7,
+            "title": "Singing for Beginners",
+            "slug": "singing-for-beginners",
+            "description": "Introduction to singing, covering vocal techniques, breathing exercises, and simple songs.",
+            "price": 39.99,
+            "instructor": "James Wilson",
+            "isFeatured": false,
+            "image": "https://example.com/images/singing.jpg"
+        },
+        {
+            "id": 8,
+            "title": "Advanced Music Theory",
+            "slug": "advanced-music-theory",
+            "description": "In-depth exploration of music theory concepts, including harmony, counterpoint, and analysis.",
+            "price": 74.99,
+            "instructor": "Daniel Garcia",
+            "isFeatured": true,
+            "image": "https://example.com/images/music-theory.jpg"
+        },
+        {
+            "id": 9,
+            "title": "Songwriting Essentials",
+            "slug": "songwriting-essentials",
+            "description": "Learn the art of songwriting, from crafting lyrics to composing melodies and chord progressions.",
+            "price": 54.99,
+            "instructor": "Mia Martinez",
+            "isFeatured": false,
+            "image": "https://example.com/images/songwriting.jpg"
+        },
+        {
+            "id": 10,
+            "title": "Introduction to Music Production",
+            "slug": "introduction-to-music-production",
+            "description": "Get started with music production, learning about recording, mixing, and mastering techniques.",
+            "price": 64.99,
+            "instructor": "Ethan Moore",
+            "isFeatured": true,
+            "image": "https://example.com/images/music-production.jpg"
+        }
+    ]
+    
+}
