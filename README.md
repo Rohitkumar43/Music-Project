@@ -40,3 +40,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 1. defining the folder means we are defing the routes of the websites 
 2. now we make the project 
 3. make the seperate folder for each things 
+4. Now use the accertinity UI for the UI and understand that how to import it 
+5. go through the Steps to add the navbar 
+6. Now add the UI COMPONETS AND MAKE A FIE ACC TO THE FILE 
+7. take all the refrance from the document of the accertinity UI 
+8. 
