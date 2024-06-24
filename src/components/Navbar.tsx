@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Link from "next/link"; // Import the Link component from next/link
 import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/navbar-menu";
-import { cn } from "@/utils/cn";
+import { cn } from "@/utils/cn"; // it  is used fir the accertnity ui
 
 function Navbar({ className }: { className?: string }){
     const [active, setActive] = useState<string | null>(null);
@@ -10,9 +10,10 @@ function Navbar({ className }: { className?: string }){
         <div className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50", className)} >
 
             <Menu setActive={setActive} >
-                <Link href= {"#"}>
+                <Link href= {"/"}>
                 <MenuItem setActive={setActive} active={active} item="Home">
                 </MenuItem>
+                </Link>
                 
                 <MenuItem setActive={setActive} active={active} item="Our Courses">
                 <div className="flex flex-col space-y-4 text-sm">
@@ -28,11 +29,9 @@ function Navbar({ className }: { className?: string }){
                 <HoveredLink href="/aboutus">About Us</HoveredLink>
                 </MenuItem>
                 </div> */}
-                </Link>
+                <MenuItem setActive={setActive} active={active} item="Contact">
+                </MenuItem>
             </Menu>
-
-
-
             </div>
     )
 }
