@@ -4,7 +4,7 @@ import { Button } from "./ui/moving-border";
 
 function Herosection(){
     return(
-        <div className="h-auto md:[40rem] w-full rounded-md flex flex-col items-center justify-center
+        <div className="h-auto md:[40rem] w-full mt-80 rounded-md flex flex-col items-center justify-center
         relative  mx-auto py-10 md:py-0 ">
             <div className="p-4 relative z-10 w-full text-center">
             <Spotlight
