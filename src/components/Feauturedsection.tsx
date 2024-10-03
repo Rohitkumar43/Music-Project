@@ -9,13 +9,13 @@ import { title } from 'process';
 
 interface Courses {
     id: number,
-    title: String,
-    slug: String,
-    description: String,
+    title: string,
+    slug: string,
+    description: string,
     price: number,
-    instructor: String,
+    instructor: string,
     isFeatured: boolean,
-    image: String
+    image: string
 }
 
 
@@ -35,17 +35,18 @@ function Feauturedsection(){
             <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3
             gap-8 justify-center'>
                 {featuredCourses.map((course:Courses) => (
-                    <div key={course.id} className='flex justify-center'>
-                       <HoverEffect className='flex flex-col rounded-[22px] bg-white dark:bg-zinc-900 
-                       overflow-hidden h-full max-w-sm'>
-                        <div className='p-4 sm:p-6 flex flex-col items-center
-                        text-center flex-grow'>
-                            <p>{course.title}</p>
-                            <p>{course.image}</p>
-                            <p>{course.description}</p>
+                    <div key={course.id} className="flex justify-center">
+                    <HoverEffect
+                    className="flex flex-col rounded-[22px] bg-white dark:bg-zinc-900 overflow-hidden h-full max-w-sm">
+                        <div className="p-4 sm:p-6 flex flex-col items-center text-center flex-grow">
+                            <p className="text-lg sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">{course.title}</p>
+                            <p className="text-sm text-neutral-600 dark:text-neutral-400 flex-grow">{course.description}</p>
+                            <Link href={`/courses/${course.slug}`}>
+                            Learn More
+                            </Link>
                         </div>
-                       </HoverEffect>
-                    </div>
+                    </HoverEffect>
+                </div>
                 ))}
             </div>
             </div>

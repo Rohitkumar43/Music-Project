@@ -1,7 +1,7 @@
 import Herosection from "@/components/Herosection";
 import Feauturedsection from '@/components/Feauturedsection';
 
-
+// this is the page where is the gloal layout is there 
 export default function Home() {
   return(
     <main className="min-h-screen bg-black/[0.65] antialiased bg-grid-white/[0.02]">
