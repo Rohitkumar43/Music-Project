@@ -2,6 +2,7 @@ import Herosection from "@/components/Herosection";
 import Feauturedsection from '@/components/Feauturedsection';
 import Whyus from '@/components/whyus'
 import Backgroundgrid from '@/components/Backgroundgrid'
+// import AnimatedTooltipPreviewa from '@/components/tooltiplast'
 
 // this is the page where is the gloal layout is there 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       <Feauturedsection/>
       <Whyus/>
       <Backgroundgrid/>
+      {/* <AnimatedTooltipPreview/> */}
 
     </main>
   )
